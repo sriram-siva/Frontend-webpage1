@@ -1,0 +1,115 @@
+body{
+    background-color: bisque;
+}
+nav{
+    display: flex;
+}
+a{
+   margin-top: 40px;
+   text-decoration: none;
+   color: black;
+   padding: 5px;
+   
+}
+.lsbtn button{
+    height: 20px;
+    width: 70px;
+    border: none;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 5px 0px;
+    border-radius: .5pc;
+    cursor: pointer;
+}
+#log{
+    margin-left: 188px;
+    margin-right:10px ;
+}
+#src{
+    background-color: rgb(246, 248, 250);
+    border: none;
+    cursor: pointer;
+}
+.container{
+    margin-left: 10px;
+    margin: 45px;
+    height: 70%;
+    padding: 50px;
+    background-color: rgb(246, 248, 250);
+    width: 1050px;
+}
+h2{
+    padding-right: 250px;
+    margin-left: 43px;
+    margin-top: -10px;
+}
+.img{
+    background-image: url(pic.jpg);
+    margin-left: 40px;
+    height: 400px;
+    width: 950px;
+    border-radius: 10px 10px 10px 10px;
+}
+.box{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    width: fit-content;
+    border-radius: .5pc;
+    margin-left: 11pc;
+    margin-top:-53px ;
+    box-shadow: 1px 5px 10px 1px rgb(159, 166, 167) ;
+    
+}
+.boxl2{
+    margin-left: 80px;
+    padding-right: 80px;
+}
+.box button{
+    cursor: pointer;
+    margin-left: 90px;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: .7pc;
+    margin-top: 20px;
+    color: aliceblue;
+    background-color: black;
+    border: none;
+}
+.trends{
+    margin-top: 2pc;
+}
+.trends p{
+    margin-left: 47px;
+}
+.trends button{
+    height: 2pc;
+    margin: 5px;
+    width: 2pc;
+    border-radius: 5pc;
+    border: none;
+    cursor: pointer;
+}
+.wrapper .item{
+    line-height: 10px;
+    text-align: center ;
+    margin-right: 3px;
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+    font-family: sans-serif;
+}
+.wrapper{
+    max-height: 300px;
+    display: flex;
+    overflow-x: auto;   
+    margin-left: 47px;
+    border-radius: 3px 3px 3px 3px;
+}
+.wrapper::-webkit-scrollbar{
+    width:0;
+}
+.wrapper img{
+    width: 250px;
+    height: 170px;
+}
